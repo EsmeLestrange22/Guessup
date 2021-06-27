@@ -1,0 +1,83 @@
+<html>
+
+<head>
+	<title>Guess The Number</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	
+</head>
+
+<body>
+
+	<span id="p1name"></span>
+	<span id="p1score"></span>
+	<br> <br>
+	<span id="p2name"> </span>
+	<span id="p2score"></span>
+	<div class="container">
+		<center>
+			<h2 style="color: white;">Guess The Number!</h2>
+			<h3 id="pq"> Question Turn: </h3>
+			<h3 id="pa"> Answer Turn </h3>
+
+
+
+			<br>
+			<br>
+			<div id="output"></div>
+			<label>Send Your Numbers: <b style="color: rgb(0, 0, 0)">Put in a number in each of the boxes</b></label>
+			<br><br>
+			<input id="num1" placeholder="Type the first number Here!!" type="text">
+			<br><br><br>
+			<input id="num2" placeholder="Type your second number Here!!" type="text">
+<br>
+
+			<br>
+			<button onclick="send()"> Send </button>
+		</center>
+	</div>
+<style>
+	body{
+	background-color: rgb(75, 0, 71);
+	font-family: cursive;
+	color: rgb(255, 255, 255);
+	font-size: 28px;
+}
+div{
+	background-color: rgb(0, 179, 15);
+	border-radius: 25px;
+	border-width: 4px;
+	border-style: solid;
+	border-color: rgb(4, 0, 255);
+	
+}
+input{
+	background-color: black;
+	color: white;
+	font-family: cursive;
+}
+button{
+	background-color: white;
+	border-radius: 25px;
+	border-width: 4px;
+	border-style: solid;
+	border-color: black;
+	color: black;
+	font-family: cursive;
+	width: 100px;
+	height: 50px;
+	font-size: 18px;
+}
+span {
+	color: white;
+}
+
+</style>
+	<script src="game_page.js"></script>
+</body>
+
+</html>
